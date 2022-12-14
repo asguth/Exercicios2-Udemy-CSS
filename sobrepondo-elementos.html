@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sobrepondo Elementos</title>
+
+		<style type="text/css">
+			
+			body {
+				background: url('https://img.freepik.com/premium-vector/seamless-chain-pattern-black-silver-metallic-chain-texture-isolated-white-background_257312-1399.jpg?w=2000');
+			}
+
+			h2 {
+				font-size: 60px;
+				color: white;
+				margin: 5px 20px;
+			}
+
+			.conteudo1 {
+				background: #1B262C;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				z-index: 0;
+			}
+
+			.conteudo2 {
+				background: #0F4C75;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 80px;
+				left: 80px;
+				z-index: 1;
+			}
+
+			.conteudo3 {
+				background: #3282B8;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 160px;
+				left: 160px;
+				z-index: 2;
+			}
+
+			.conteudo4 {
+				background: #BBE1FA;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 240px;
+				left: 240px;
+				z-index: 2;
+			}
+
+			.ghost {
+				height: 2000px;
+			}
+
+			.fixed {
+				position: fixed;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div class="fixed">
+			<div class="conteudo1">
+				<h2>1</h2>
+			</div>
+
+			<div class="conteudo2">
+				<h2>2</h2>
+			</div>
+
+			<div class="conteudo3">
+				<h2>3</h2>
+			</div>
+
+			<div class="conteudo4">
+				<h2>4</h2>
+			</div>
+		</div>
+
+		<div class="ghost">
+			<p>&nbsp;</p>
+		</div>
+
+
+	</body>
+
+</html>

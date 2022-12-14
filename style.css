@@ -1,0 +1,38 @@
+a {
+font-family: arial, sans-serif;
+font-size: 20px;
+display: block;
+padding: 20px;
+margin-top:20px;
+text-decoration: none;
+border-radius: 20px;
+}
+
+a:link, a:visited {
+color: white;
+}
+
+a:hover {
+color: white;
+width: 450px;
+background: #007fc7;
+}
+
+a:active {
+color: darkgray;
+}
+
+#margin {
+margin-top: 5%;
+}
+
+h2 {
+	font-family: arial, sans-serif;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+body {
+	background: #06283D;
+}
